@@ -1,0 +1,84 @@
+body {
+  background-color: bisque;
+}
+
+.container {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 500px;
+  top: 200px;
+  /* border: 1px black solid; */
+}
+
+.text1 {
+  width: max-content;
+  height: max-content;
+  font-size: 80px;
+  -webkit-text-stroke: 1px red;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.text2 {
+  width: max-content;
+  height: max-content;
+  font-size: 80px;
+  -webkit-text-stroke: 1px red;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.block1 {
+  width: 12%;
+  height: 60%;
+  background-color: red;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  transition: transform 2000ms;
+  transform: skew(0, 30deg) translate(55px, -130px) rotate(61deg);
+  border-radius: 5%;
+}
+
+.block2 {
+  width: 60%;
+  height: 12%;
+  background-color: red;
+  position: absolute;
+  left: 20%;
+  top: 0%;
+  transition: transform 2000ms;
+  transform: skew(0, 30deg) translate(70px, 40px) rotate(61deg);
+  border-radius: 5%;
+}
+.block3 {
+  width: 12%;
+  height: 60%;
+  background-color: red;
+  position: absolute;
+  top: 20%;
+  left: 88%;
+  transition: transform 2000ms;
+  transform: skew(0, 30deg) translate(-45px, 110px) rotate(61deg);
+  border-radius: 5%;
+}
+.block4 {
+  width: 60%;
+  height: 12%;
+  background-color: red;
+  position: absolute;
+  left: 20%;
+  top: 88%;
+  transition: transform 2000ms;
+  transform: skew(0, 30deg) translate(-60px, -60px) rotate(61deg);
+  border-radius: 5%;
+}
